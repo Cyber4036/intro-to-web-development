@@ -32,6 +32,12 @@
     <button>Contact Me</button>
   </a>
 </div>
+<!-- About Me -->
+<div class="About-Me">
+	<h2 class="AddCont">About Me</h2>
+	<p>I'm a Frontend developer building scalable and user-friendly applications. I specialize in Key Technologies, e.g., React, Node.js, Python, and I love solving complex problems with clean, efficient code. When I'm not coding, I contribute to open-source projects or explore new tech trends.</p>
+
+</div>
 
   <!-- Coding journey section -->
 <div id="coding-journey" class="journey">
@@ -73,9 +79,28 @@
     </div>
   </div>
 </div>
+<!-- My Goals -->
+
+<div id="Goal" class="About-Me">
+	<h2 class="AddCont">My Goals</h2>
+	<p>My goal is to work on impactful projects that challenge me to grow as a developer. I aim to contribute to innovative solutions while collaborating with talented teams and staying at the forefront of technology.</p>
+</div>
 
   <!-- Footer section -->
-<footer>Made By Manzi Arnaud</footer>
+<footer>Website Made With ❤️  From Kigali &copy <span id="currentYear"></span>
+</footer>
+
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+
+    // Get the element where the year will be displayed
+    const yearSpan = document.getElementById('currentYear');
+
+    // Update the content of the span with the current year
+    yearSpan.textContent = currentYear;
+  </script>
+
   <script src="./script.js"></script>
 </body>
 
